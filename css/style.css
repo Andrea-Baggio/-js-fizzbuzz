@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(93, 43, 194);
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.squares {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.sq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: gold;
+}
+
+.fizz {
+	background-color: brown;
+}
+
+.buzz {
+	background-color: rebeccapurple;
+}
+
+.fizzbuzz {
+	background-color: greenyellow;
+}
